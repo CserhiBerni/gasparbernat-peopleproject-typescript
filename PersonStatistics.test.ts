@@ -8,11 +8,11 @@ describe('PersonStatistics', () => {
 
     beforeEach(() => {
         people = [
-            { id: 1, name: 'Alice', age: 25, isStudent: true, score: 85 },
-            { id: 2, name: 'Bob', age: 30, isStudent: false, score: 75 },
-            { id: 3, name: 'Charlie', age: 22, isStudent: true, score: 95 },
-            { id: 4, name: 'David', age: 28, isStudent: true, score: 35 },
-            { id: 5, name: 'Eve', age: 26, isStudent: false, score: 50 }
+            { id: 1, name: 'Bernát', age: 25, isStudent: true, score: 85 },
+            { id: 2, name: 'Krisztián', age: 30, isStudent: false, score: 75 },
+            { id: 3, name: 'Máté', age: 22, isStudent: true, score: 95 },
+            { id: 4, name: 'Márk', age: 28, isStudent: true, score: 35 },
+            { id: 5, name: 'Barnabás', age: 26, isStudent: false, score: 50 }
         ];
         personStats = new PersonStatistics(people);
     });
